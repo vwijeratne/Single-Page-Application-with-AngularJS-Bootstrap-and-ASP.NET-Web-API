@@ -1,0 +1,30 @@
+﻿<div ng-controller="HomeController" class="row">
+    <div class="row">
+        <div class="col-md-9 col-md-offset-1">
+            <input type="text" placeholder="Filter" class="input-lg form-control" ng-model="txtFilter" />
+            <br />
+            <br />
+
+            <table class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th>Person ID</th>
+                        <th>Person Name</th>
+                        <th>Person Age</th>
+                    </tr>
+                </thead>
+                <tr ng-repeat="person in people.data | filter:txtFilter">
+                    <td>
+                        {{person.Id}}
+                    </td>
+                    <td>
+                        {{person.Name}}
+                    </td>
+                    <td>
+                        {{person.Age}}
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>

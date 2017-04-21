@@ -1,0 +1,19 @@
+﻿<div ng-controller="AddController" class="row">
+    <div class="col-md-6 col-md-offset-3">
+        <form>
+            <div class="form-group">
+                <label for="inputName">Id</label>
+                <input type="text" ng-model="Id" class="form-control input-lg" placeholder="Person Id" />
+            </div>
+            <div class="form-group">
+                <label for="inputName">Name</label>
+                <input type="text" ng-model="Name" class="form-control input-lg" placeholder="Person Name" />
+            </div>
+            <div class="form-group">
+                <label for="inputName">Age</label>
+                <input type="text" ng-model="Age" class="form-control input-lg" placeholder="Person Age" />
+            </div>
+            <button ng-click="addPeople()" class="btn btn-info form-control input-lg">Save</button>
+        </form>
+    </div>
+</div>

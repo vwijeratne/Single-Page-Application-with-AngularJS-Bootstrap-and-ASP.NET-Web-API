@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26228.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPASampleApplication", "SPASampleApplication\SPASampleApplication.csproj", "{F9B6AEE0-57FB-4805-A9EB-033D91DC8548}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIForSPAApp", "WebAPIForSPAApp\WebAPIForSPAApp.csproj", "{9129750F-2BF7-4C1D-9E30-33DCF740C594}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiForSPAApplication", "WebApiForSPAApplication\WebApiForSPAApplication.csproj", "{079BC9DA-DBE6-4B9E-9C56-97ED2823C977}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{F9B6AEE0-57FB-4805-A9EB-033D91DC8548}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9B6AEE0-57FB-4805-A9EB-033D91DC8548}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9B6AEE0-57FB-4805-A9EB-033D91DC8548}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9129750F-2BF7-4C1D-9E30-33DCF740C594}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9129750F-2BF7-4C1D-9E30-33DCF740C594}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9129750F-2BF7-4C1D-9E30-33DCF740C594}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9129750F-2BF7-4C1D-9E30-33DCF740C594}.Release|Any CPU.Build.0 = Release|Any CPU
+		{079BC9DA-DBE6-4B9E-9C56-97ED2823C977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{079BC9DA-DBE6-4B9E-9C56-97ED2823C977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{079BC9DA-DBE6-4B9E-9C56-97ED2823C977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{079BC9DA-DBE6-4B9E-9C56-97ED2823C977}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
